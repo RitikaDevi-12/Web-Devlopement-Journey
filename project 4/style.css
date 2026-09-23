@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 170vh;
+    overflow-x: none;
+    background: linear-gradient(90deg, #a47451 0.000%, #9c9881 16.667%, #73a09d 33.333%,
+         #3b899a 50.000%, #095b79 66.667%, #0028479c 83.333%, #000116a0 100.000%);
+    /* background: linear-gradient(45deg, #8ec5fc 0.000%, #8dd3ff 25.000%,
+     #a1d8ff 50.000%, #c1d2ff 75.000%, #e0c3ff 100.000%); */
+    /* background: linear-gradient(315deg, #fcb8e2 0.000%,
+     #ffc8ed 20.000%, #fbe8f9 40.000%, #e8f9ff 60.000%,
+      #d0ecff 80.000%, #b8cdfa 100.000%); */
+}
+.navContainer{
+    width: 100vw;
+    /* background-color: rgba(238, 174, 202, 100);background: #EEAECA; */
+    background: radial-gradient(circle, rgb(186, 7, 84) 0%,
+     rgba(148, 187, 233, 1) 100%);
+     background: linear-gradient(90deg, #542401 0.000%, #453c04 16.667%, #066d66 33.333%,
+         #013540 50.000%, #08698d 66.667%, #9ab0c09c 83.333%, #9296dda0 100.000%);
+    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 90%;
+    overflow-x: none;
+}
+#navList{
+    width: 100%;
+    padding: 8px;
+    margin-left: 15px ;
+    margin-right: 15px;
+    list-style:none;
+    font-size:  2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navlogo{
+    font-size: 3.8rem;
+    color:azure;
+}   
+a{
+    text-decoration: none;
+}
+#navItems{
+    display: flex;
+    gap: 20px;
+}
+footer{
+    width: 100%;
+}
+.footerBox{
+     /* background: linear-gradient(315deg, #fcb8e2 0.000%,
+     #ffc8ed 20.000%, #fbe8f9 40.000%, #e8f9ff 60.000%,
+      #d0ecff 80.000%, #b8cdfa 100.000%); */
+      background: linear-gradient(45deg, #8ec5fc 0.000%, #8dd3ff 25.000%,
+       #a1d8ff 50.000%, #c1d2ff 75.000%, #e0c3ff 100.000%);
+      text-align: center;
+      min-height: 30px;
+
+}
+.footerBox p{
+      color: rgb(5, 37, 37);
+      font-size: 2rem;
+}
+.contentBox{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid rgb(199, 193, 193); */
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rightBox img{
+    width: 400px;
+    height: 400px;
+
+}
