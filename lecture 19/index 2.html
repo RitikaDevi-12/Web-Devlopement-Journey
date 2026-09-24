@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border;
+    }
+        .container{
+            width: 100vw;
+            height: 100vh;
+             background-image:linear-gradient(135deg ,#8bc6ec 0% ,#9599E2 100%);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+         .card {
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+         }
+         .card img{
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+         }
+         .textBox{
+             display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 75%;
+            text-align: center;
+         }
+         #amountBox{
+            width: 80%;
+            height: 10%;
+            background-color: #7da2e8b2;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right:20px ;
+            padding-left: 20px;
+         }
+         #leftBox{
+            height: 100%;
+            width: fit-content;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+         }
+         .imgBox img{
+            height: 3.7rem;
+            width: 3.7rem ;
+         }
+         #paymentButton{
+            width: 80%;
+            height: 10%;
+            background-color: #08012fb2;
+            color: white;
+            border-radius: 10px;
+            box-shadow:inset 0 -3em 3em rgba(17, 2, 75, 0.3),
+                    0 0 0 3px white,0.3em 0.2em 2em rgb(104, 159, 237);
+           
+         }
+         .cancelBox a{
+            text-decoration: none;
+            color: rgb(68, 66, 66);
+            font-weight: bold;
+            font-size: large;
+            
+         }
+         /* @media(width:600px){
+        .container{
+                flex-direction: column;
+            }
+         } */
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+            <img src="card2.png" alt="">
+            
+            <div class="textBox">
+            <h2>Order Summary</h2>
+            <p>Order Summary is a section in an e-commerce checkout page that
+                 shows the customer a quick overview of their order before 
+                 payment.</p>
+
+            </div>
+        <div id="amountBox">
+            <div id="leftBox">
+                <div class="imgBox">
+                    <img src="music.jpg" alt="">
+
+                </div id="textAmountBox">
+                   
+                <div>
+                    <p>Amount</p>
+                    
+                    <p>$99.9/year</p>
+                </div>
+            </div>
+
+            <div id="rightBox">
+                <a href="#">Change</a>
+
+            </div>
+
+        </div>
+
+        <button id="paymentButton">Proceed to Payment</button>
+        <div class="cancelBox">
+            <a href="#">Cancel Order</a>
+        </div>
+
+      </div> 
+
+    </div>
+</body>
+</html>
