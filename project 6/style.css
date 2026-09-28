@@ -348,20 +348,39 @@ body{
 .feature-card:nth-child(1){
     background-color: #4a90e2;
 }
+.feature-card:nth-child(1):hover{
+    background-color: #08366d;
+}
 .feature-card:nth-child(2){
     background-color: #FF6289;
 }
+.feature-card:nth-child(2):hover{
+    background-color: #7c0624;
+    }
 .feature-card:nth-child(3){
     background-color: #fcbf58;
+}
+.feature-card:nth-child(3):hover{
+    background-color: #c17e0a;
 }
 .feature-card:nth-child(4){
     background-color: #44bfc3;
 }
+.feature-card:nth-child(4):hover{
+    background-color: #0a7478;
+}
+
 .feature-card:nth-child(5){
     background-color: #77b05d;
 }
+.feature-card:nth-child(5):hover{
+    background-color: #2a7309;
+}
 .feature-card:nth-child(6){
     background-color: #7d78b1;
+}
+.feature-card:nth-child(6):hover{
+    background-color: #110a5b;
 }
 @media screen and (max-width: 768px) {
     .feature-grid{
